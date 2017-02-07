@@ -1,5 +1,5 @@
 #Parte 1
-#Construir con el nombre de -t oscarholmedo/phalcon3-php7-apache2
+#Construir con el nombre -t base-phalcon
 #o hacer el cambio de nombre en la parte 2
 FROM ubuntu:16.04
 MAINTAINER Oscar Holmedo <oscarholmedo@gmail.com>
@@ -35,7 +35,7 @@ RUN cd /tmp && \
 
 #######################################
 ## Parte 2
-#FROM oscarholmedo/phalcon3-php7-apache2
+#FROM base-phalcon
 #MAINTAINER Oscar Holmedo <oscarholmedo@gmail.com>
 
 #RUN cd /etc/apache2/ && \
