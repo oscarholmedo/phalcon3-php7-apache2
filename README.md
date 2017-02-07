@@ -21,10 +21,13 @@ Listo
 
 
 ###Archivos de configuracion
-confs/php.ini -> /etc/php/7.0/cli/php.ini
-confs/apache2.conf ->	/etc/apache2/apache2.conf
-confs/000-default.conf -> /etc/apache2/sites-available/000-default.conf
-confs/default-ssl.conf -> /etc/apache2/sites-available/default-ssl.conf
+confs/php.ini           -> /etc/php/7.0/cli/php.ini
+<br>
+confs/apache2.conf      ->	/etc/apache2/apache2.conf
+<br>
+confs/000-default.conf  -> /etc/apache2/sites-available/000-default.conf
+<br>
+confs/default-ssl.conf  -> /etc/apache2/sites-available/default-ssl.conf
 
 ###Carpeta para certificados ssl
 ssl -> /etc/apache2/ssl 
