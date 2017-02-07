@@ -7,15 +7,13 @@ Instalar apache, php y phalcon.
 <p>descargar los archivos y compilar la carpeta /Base </p>
 
 <pre>
-$ cd Base 
-$ docker build -t base-phalcon . 
+$ docker build -t base-phalcon Base 
 </pre>
 
 ##2.- Crear el contenedor dinamico para personalizar los archivos de configuracion 
 Considerando que se uso el nombre "base-phalcon" en el build anterior
 <pre>
-$ cd Custom 
-$ docker build -t custom-phalcon . 
+$ docker build -t custom-phalcon Custom 
 </pre>
 Listo
 
