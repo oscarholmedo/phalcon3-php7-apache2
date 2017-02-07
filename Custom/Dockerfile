@@ -1,5 +1,5 @@
 # Parte 2
-FROM oscarholmedo/phalcon3-php7-apache2
+FROM base-phalcon
 MAINTAINER Oscar Holmedo <oscarholmedo@gmail.com>
 
 RUN cd /etc/apache2/ && \
