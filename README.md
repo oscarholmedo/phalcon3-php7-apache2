@@ -2,7 +2,8 @@
 
 El proceso esta en dos partes por comodidad, asi no tiene que tardar todo el proceso de montar el servidor base cada vez que se requiera  hacer ajustes en los archivos de configuracion 
 <br>
-##1.- Crear el contenedor base. Instalar apache, php y phalcon.
+##1.- Crear el contenedor base
+Instalar apache, php y phalcon.
 <p>descargar los archivos y compilar la carpeta /Base </p>
 
 <pre>
@@ -10,12 +11,14 @@ $ cd Base
 $ docker build -t base-phalcon . 
 </pre>
 
-
-##2.- Crear el contenedor dinamico para personalizar los archivos de configuracion (considerando que se uso el nombre "base-phalcon" en el build anterior)
+##2.- Crear el contenedor dinamico para personalizar los archivos de configuracion 
+Considerando que se uso el nombre "base-phalcon" en el build anterior
 <pre>
 $ cd Custom 
 $ docker build -t custom-phalcon . 
 </pre>
+Listo
+
 
 ###Archivos de configuracion
 confs/php.ini -> /etc/php/7.0/cli/php.ini
